@@ -1,0 +1,52 @@
+div.imgContainer{
+    text-align: center;
+    margin-top: 7.5%;
+}
+
+div.imgContainer img{
+    width: 10vw;
+}
+
+div.gifContainer{
+    padding: 0.5%;
+    height: 250px;
+    margin: 2.5% 0;
+    box-shadow: -6px 18px 12px 0px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+div.gifContainer img.gif{
+    height: 100%;
+    width: 100%;
+    margin-top: 0;
+}
+
+div.gifContainer img{
+    width: 15%;
+    height: 15%;
+    margin-top: -87.5%;
+}
+
+div.row{
+    margin-top: 1%
+}
+
+div.row div.row{
+    padding: 0;
+    margin: 1% auto 0;
+}
+
+p.err{
+    text-align: center;
+    margin-top: 5%;
+    color: red;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Resizing */
+@media(max-width:576px){
+    div.gifContainer{
+        height: 225px;
+    }
+}
